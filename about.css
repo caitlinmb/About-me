@@ -1,0 +1,90 @@
+ html, body {
+    background-image: url(imgs/1tZZR7h.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    overflow-y: scroll;
+
+}
+
+.container {
+    width: 65%;
+    margin-top: 40px;
+}
+
+.bck2 {
+    background-color:rgb(255,255,240);
+   /*padding: 20px 20px 25px 25px;*/
+    box-shadow: -5px 10px 10px 9px rgba(0, 0, 0, 0.4)
+    
+    
+}
+
+
+.top {
+    background-color: rgb(216, 221, 225);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.title {
+    padding-top: 20px;
+   
+}
+
+h1#name {
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    margin: 0px 70px;
+}
+#occ {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.cait {
+    border-radius: 50%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    
+}
+
+.row {
+    padding-left: 30px;
+}
+
+.col-sm-4 {
+    max-width: 90%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2px;
+}
+.right {
+    text-align: right;
+}
+.title2 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    text-decoration: none;
+    /*add glow effect*/
+}
