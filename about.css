@@ -1,5 +1,5 @@
  html, body {
-    background-image: url(imgs/1tZZR7h.jpg);
+    background-image: url("imgs/1tZZR7h.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,6 +59,8 @@ h1#name {
 
 h3 {
     font-size: 1.5rem;
+    text-decoration: underline solid pink;
+    text-underline-position: under;
 }
 
 p {
@@ -123,5 +125,6 @@ ul {
 }
 .link:hover {
     text-decoration: none;
+    color:rgb(15, 118, 150)
     /*add glow effect*/
 }
