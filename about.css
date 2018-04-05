@@ -7,7 +7,8 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -19,7 +20,8 @@
 .bck2 {
     background-color:rgb(255,255,240);
    /*padding: 20px 20px 25px 25px;*/
-    box-shadow: -5px 10px 10px 9px rgba(0, 0, 0, 0.4)
+    box-shadow: -5px 10px 10px 9px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
     
     
 }
@@ -29,6 +31,7 @@
     background-color: rgb(216, 221, 225);
     max-width: 100%;
     margin-bottom: 15px;
+    padding: 10px 10px 20px 10px;
 }
 
 .title {
@@ -44,12 +47,45 @@ h1#name {
     margin: 10px;
     background-color: white;
     margin: 0px 70px;
+    font-family: 'Raleway', sans-serif;
+   
 }
 #occ {
     text-align: center;
     padding-bottom: 10px;
     font-size: 1.5rem;
     margin-top: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: small;
+}
+
+#ab {
+    text-align: center;
+}
+
+
+i {
+    float: right;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.fa-github {
+    line-height: 20px !important;
+}
+
+.fa-linkedin {
+    line-height: 20px !important;
+}
+
+.fa-envelope{
+    line-height: 25px !important;
 }
 
 .cait {
@@ -59,6 +95,7 @@ h1#name {
     height: 150px;
     display: block;
     margin: auto;
+    margin-top: 30px;
     
 }
 
@@ -74,8 +111,8 @@ ul {
     list-style: none;
     padding-left: 2px;
 }
-.right {
-    text-align: right;
+.left {
+    text-align: left;
 }
 .title2 {
     text-align: center;
